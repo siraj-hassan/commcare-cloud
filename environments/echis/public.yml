@@ -11,9 +11,9 @@ elasticsearch_download_sha256: 78affc30353730ec245dad1f17de242a4ad12cf808eaa87dd
 
 redis_maxmemory: 4gb
 
-default_from_email: echismoh@moh.gov.et
-server_email: echismoh@moh.gov.et
-server_admin_email: echis_server_admin@moh.gov.et
+default_from_email: siraj.hassan@moh.gov.et
+server_email: siraj.hassan@moh.gov.et
+server_admin_email: siraj.hassan@moh.gov.et
 
 nofile_limit: 65536
 ssh_allow_password: True
@@ -58,6 +58,8 @@ localsettings:
     - 172.19.0.161
     - 172.19.3.40
     - 172.19.3.41
+    - 172.19.3.121
+    - 172.19.3.122
   COMMCARE_HQ_NAME: 'eCHIS Server'
   COMMCARE_NAME: 'eCHIS'
   COUCH_CACHE_DOCS: True
