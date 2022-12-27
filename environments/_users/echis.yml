@@ -1,5 +1,8 @@
 dev_users:
   present:
+    - echis_siraj
+  absent:
+    - echis_melese
     - ctsims
     - skelly
     - sravfeyn
@@ -9,7 +12,5 @@ dev_users:
     - echis_geanaruki
     - echis_esubalew
     - echis_robel
-    - echis_siraj
     - echis_demisew
-  absent:
-    - echis_melese
+
