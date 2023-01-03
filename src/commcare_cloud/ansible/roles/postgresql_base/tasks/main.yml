@@ -78,11 +78,11 @@
     path: "{{ postgresql_data_dir }}/PG_VERSION"
   register: pgdata_dir_version
 
-  #- name: Ensure PostgreSQL database is initialized.
-  #command: "{{ postgresql_bin_path }}/initdb -D {{ postgresql_data_dir }}"
-  # when: not pgdata_dir_version.stat.exists
-  #become: true
-  #become_user: postgres
+- name: Ensure PostgreSQL database is initialized.
+  command: "{{ postgresql_bin_path }}/initdb -D {{ postgresql_data_dir }}"
+  when: not pgdata_dir_version.stat.exists
+  become: true
+  become_user: postgres
 
 - name: assert hot standby config correct
   assert: { that: "hot_standby_server is not defined or hot_standby_server in groups.pg_standby"}

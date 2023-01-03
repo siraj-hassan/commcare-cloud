@@ -60,6 +60,7 @@ localsettings:
     - 172.19.3.41
     - 172.19.3.121
     - 172.19.3.122
+    - 172.19.0.135
   COMMCARE_HQ_NAME: 'eCHIS Server'
   COMMCARE_NAME: 'eCHIS'
   COUCH_CACHE_DOCS: True
