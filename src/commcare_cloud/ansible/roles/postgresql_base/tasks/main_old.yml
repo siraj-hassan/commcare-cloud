@@ -81,7 +81,7 @@
 - name: Ensure PostgreSQL database is initialized.
   command: "{{ postgresql_bin_path }}/initdb -D {{ postgresql_data_dir }}"
   when: not pgdata_dir_version.stat.exists
-  become: yes
+  become: true
   become_user: postgres
 
 - name: assert hot standby config correct

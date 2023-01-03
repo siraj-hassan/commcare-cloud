@@ -1,6 +1,7 @@
 dev_users:
   present:
     - echis_siraj
+    - ansible
   absent:
     - echis_melese
     - ctsims
