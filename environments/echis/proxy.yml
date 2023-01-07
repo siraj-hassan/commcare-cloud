@@ -1,4 +1,4 @@
-SITE_HOST: 'echis-test.moh.gov.et'
+SITE_HOST: 'echis-demo.moh.gov.et'
 nginx_max_worker_connection: 1024
 nginx_worker_rlimit_nofile : 16384
 primary_ssl_env: "echis"
