@@ -9,7 +9,6 @@ elastcsearch_backup_days: 3
 elasticsearch_version: 1.7.6
 elasticsearch_download_sha256: 78affc30353730ec245dad1f17de242a4ad12cf808eaa87dd878e1ca10ed77df.
 
-rabbitmq_version: 3.10.7-1
 erlang: 1:25.0.4-1
 redis_maxmemory: 2gb
 
