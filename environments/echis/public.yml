@@ -9,6 +9,13 @@ elastcsearch_backup_days: 3
 elasticsearch_version: 1.7.6
 elasticsearch_download_sha256: 78affc30353730ec245dad1f17de242a4ad12cf808eaa87dd878e1ca10ed77df.
 
+kafka_version: 3.2.3
+kafka_scala_version: 2.13
+kafka_download_sha512: sha512:736A129823B058DC10788D0893BDE47B6F39B9E4972F9EAC2D5C9E85E51E477344C6F1E1EBD126CE34D5FD430EB07E55FDD60D60CB541F1D48655C0EBC0A4778
+kafka_inter_broker_protocol_version: 3.2
+kafka_log_message_format_version: 3.2
+
+
 erlang: 1:25.0.4-1
 redis_maxmemory: 2gb
 
